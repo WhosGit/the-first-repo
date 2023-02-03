@@ -89,3 +89,24 @@ optios:
 10. -- path/to/file: the commit that change the specified files
 11. --no-merges: ignore the merge commit
 ## undoing thing
+```shell
+$ git commit --amend
+```
+this will rewrite the previous commit
+```shell 
+$ git reset HEAD <file>
+```
+this will unstage the staged file
+## working with remotes
+```shell
+$ git remote -v
+```
+show the remote handle 
+```shell 
+$ git remote add <shortname> <url>
+```
+this will explicitly add a remote
+```shell 
+$ git fetch <remote short name>
+```
+get the data from remote project
