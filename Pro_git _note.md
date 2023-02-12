@@ -97,6 +97,18 @@ this will rewrite the previous commit
 $ git reset HEAD <file>
 ```
 this will unstage the staged file
+```shell
+$ git checkout -- <file>
+```
+this will replace the modified file with the previous staged one
+```shell
+$ git restore --staged <file>
+```
+the same with reset
+```shell
+$ git restore <file>
+```
+the same with checkout 
 ## working with remotes
 ```shell
 $ git remote -v
