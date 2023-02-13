@@ -1,3 +1,13 @@
+# Chapter 1 (Git setting)
+git configure is the working environment
+1. set the name and email
+```$ git config --global user.name "yourname"```
+```$ git config --global user.email your email```
+2. set the default branch name
+```$ git config --global init.defaultBranch name``` 
+## what is snapshot?
+to save a snapshot of the project when you commit is to save the whole project content, including all the files, at that point; git will also compare each file with the former version to see if it can save some storage.  
+Comparing to other VCS, git will not save the changes between each version of files.
 # Chapter 2 (Git basic)
 ## get a repository(repo)
 1. init a repo in an exiting dir
@@ -122,3 +132,26 @@ this will explicitly add a remote
 $ git fetch <remote short name>
 ```
 get the data from remote project
+## Tag
+tag works like a pointer to the commit version you have made, use a tag to specify a version
+1. add an annotates tag(with detailed info)
+```$ git tag -a v1.0 -m "version 1.0"```
+2. add a lightweight tag 
+```$ git tag v1.0-lw```
+3. add tag to previous commit
+```$ git tag -a v0.9 <checksum> -m "version 0.9"```
+4. show a version
+```$ git show v1.0/v1.-lt```
+5. push your tag
+```$ git push <remote> --tag``` push all the tag
+```$ git push <remote> v1.0-lt``` push a specific version
+6. go to the previous version
+```$ git checkout v1.0```
+7. make a new branch from the previous version
+```$ git checkout -b <new_branch_name> v1.0```
+this will switch to a new branch 
+## alias
+make your shortcut of the git subcommand 
+```$ git config --global alias.shortcut command_name```
+ 
+# Chapter 3 (Git branching)
