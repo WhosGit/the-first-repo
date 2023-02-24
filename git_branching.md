@@ -23,4 +23,15 @@ $ git checkout branchname
 ```shell
 $ git log
 ```
-## 
+ 5. check the branching information about the branches
+```shell
+$ git log --all -graph 
+```
+## merging
+1. basic merging
+merge the branch's content into the master 
+```shell
+$ git checkout master
+$ git merge branchname
+```
+2. merging conflict 
