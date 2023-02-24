@@ -155,3 +155,4 @@ make your shortcut of the git subcommand
 ```$ git config --global alias.shortcut command_name```
  
 # Chapter 3 (Git branching)
+We will put this part in the git branching file.
