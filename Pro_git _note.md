@@ -154,7 +154,7 @@ this will switch to a new branch
 make your shortcut of the git subcommand 
 ```$ git config --global alias.shortcut command_name```
 
-This is where we encounter the conflict.
+This is where we encounter the conflist.
 
 
 # Chapter 3 (Git branching)
