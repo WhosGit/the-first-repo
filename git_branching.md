@@ -34,4 +34,7 @@ merge the branch's content into the master
 $ git checkout master
 $ git merge branchname
 ```
-2. merging conflict 
+2. merging conflict: one tool
+```shell
+$ git mergetool
+```
