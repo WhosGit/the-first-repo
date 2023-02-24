@@ -153,6 +153,9 @@ this will switch to a new branch
 ## alias
 make your shortcut of the git subcommand 
 ```$ git config --global alias.shortcut command_name```
- 
+
+This is where we encounter the conflict.
+
+
 # Chapter 3 (Git branching)
 We will put this part in the git branching file.
