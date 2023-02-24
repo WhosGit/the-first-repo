@@ -10,3 +10,5 @@ build/
 doc/*.txt
 # ignore all .pdf files in the doc/ directory and any of its subdirectories
 doc/**/*.pd# ignore all .a file
+# ignore the um~ files
+*.un~
